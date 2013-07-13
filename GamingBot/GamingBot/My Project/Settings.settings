@@ -215,5 +215,8 @@ lclick 325 100;
 lclick 480 165;
 </Value>
     </Setting>
+    <Setting Name="FileExtension" Type="System.String" Scope="User">
+      <Value Profile="(Default)">gbot</Value>
+    </Setting>
   </Settings>
 </SettingsFile>

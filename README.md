@@ -7,7 +7,7 @@ I am going to add a feature so that you can record the routines by actually doin
 
 
 ## Screenshot
-![Application screenshot](Info/Screenshot.png)
+![Application screenshot](info/Screenshot.png)
 
 This shows the application's main window. 
 

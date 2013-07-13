@@ -22,7 +22,7 @@
     <GenerateManifests>true</GenerateManifests>
     <SignManifests>true</SignManifests>
     <IsWebBootstrapper>false</IsWebBootstrapper>
-    <PublishUrl>install\</PublishUrl>
+    <PublishUrl>..\INSTALL\</PublishUrl>
     <Install>true</Install>
     <InstallFrom>Disk</InstallFrom>
     <UpdateEnabled>false</UpdateEnabled>

@@ -21,6 +21,7 @@ Public Class FormMain
         Enable(False)
         NumericUpDownScreenWidth.Value = My.Settings.ScreenWidth
         NumericUpDownScreenHeight.Value = My.Settings.ScreenHeight
+        OpenFileDialogMain.Filter = "Gaming Bot files|*." & My.Settings.FileExtension & "|All files|*.*"
     End Sub
 
     Private Sub ButtonLoad_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles ButtonLoad.Click
@@ -88,7 +89,7 @@ Public Class FormMain
             Try
                 Dim BotsDirectory As String = Main.QualifyDirectory(Environment.CurrentDirectory) & "bots\"
                 If Not Directory.Exists(BotsDirectory) Then Directory.CreateDirectory(BotsDirectory)
-                Dim FStream As New FileStream(BotsDirectory & "Arcangrove(Rogue lvl 30).fbot", FileMode.Create, FileAccess.Write)
+                Dim FStream As New FileStream(BotsDirectory & "Arcangrove(Rogue lvl 30)." & My.Settings.FileExtension, FileMode.Create, FileAccess.Write)
                 Dim SWriter As New StreamWriter(FStream)
                 SWriter.Write(My.Settings.SampleArcangrove)
                 SWriter.Close()

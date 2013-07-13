@@ -91,7 +91,7 @@ Partial Class FormMain
         '
         'OpenFileDialogMain
         '
-        Me.OpenFileDialogMain.Filter = "Farming Bot files|*.fbot|All files|*.*"
+        Me.OpenFileDialogMain.Filter = ""
         '
         'GroupBoxRawData
         '
