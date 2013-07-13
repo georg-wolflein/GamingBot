@@ -1,0 +1,219 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="My" GeneratedClassName="MySettings" UseMySettingsClassName="true">
+  <Profiles />
+  <Settings>
+    <Setting Name="ScreenWidth" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">1920</Value>
+    </Setting>
+    <Setting Name="ScreenHeight" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">1080</Value>
+    </Setting>
+    <Setting Name="SampleArcangrove" Type="System.String" Scope="User">
+      <Value Profile="(Default)">commnt welcome to the Arcangrove bot!;
+waitms 3000;
+lclick 620 120;
+waitms 500;
+lclick 400 370;
+waitms 1000;
+lclick 100 165;
+waitms 1000;
+lclick 120 440;
+waitms 1000;
+lclick 325 100;
+lclick 480 165;
+waitms 1000;
+lclick 940 320;
+waitms 4000;
+
+lclick 405 330;
+sndkey 1;
+waitms 2000;
+lclick 405 330;
+sndkey 1;
+sndkey 2;
+waitms 2000;
+lclick 405 330;
+sndkey 1;
+sndkey 3;
+waitms 2000;
+lclick 405 330;
+sndkey 1;
+sndkey 2;
+waitms 2000;
+lclick 405 330;
+sndkey 1;
+sndkey 3;
+waitms 8000;
+lclick 540 470;
+waitms 3000;
+lclick 655 520;
+waitms 24000;
+
+
+lclick 405 330;
+sndkey 1;
+waitms 2000;
+lclick 405 330;
+sndkey 1;
+sndkey 2;
+waitms 2000;
+lclick 405 330;
+sndkey 1;
+sndkey 3;
+waitms 2000;
+lclick 405 330;
+sndkey 1;
+sndkey 2;
+waitms 2000;
+lclick 405 330;
+sndkey 1;
+sndkey 3;
+waitms 8000;
+lclick 540 470;
+waitms 3000;
+lclick 655 520;
+waitms 24000;
+
+
+lclick 405 330;
+sndkey 1;
+waitms 2000;
+lclick 405 330;
+sndkey 1;
+sndkey 2;
+waitms 2000;
+lclick 405 330;
+sndkey 1;
+sndkey 3;
+waitms 2000;
+lclick 405 330;
+sndkey 1;
+sndkey 2;
+waitms 2000;
+lclick 405 330;
+sndkey 1;
+sndkey 3;
+waitms 8000;
+lclick 540 470;
+waitms 3000;
+lclick 655 520;
+waitms 24000;
+
+
+lclick 405 330;
+sndkey 1;
+waitms 2000;
+lclick 405 330;
+sndkey 1;
+sndkey 2;
+waitms 2000;
+lclick 405 330;
+sndkey 1;
+sndkey 3;
+waitms 2000;
+lclick 405 330;
+sndkey 1;
+sndkey 2;
+waitms 2000;
+lclick 405 330;
+sndkey 1;
+sndkey 3;
+waitms 8000;
+lclick 540 470;
+waitms 3000;
+lclick 655 520;
+waitms 24000;
+
+
+lclick 405 330;
+sndkey 1;
+waitms 2000;
+lclick 405 330;
+sndkey 1;
+sndkey 2;
+waitms 2000;
+lclick 405 330;
+sndkey 1;
+sndkey 3;
+waitms 2000;
+lclick 405 330;
+sndkey 1;
+sndkey 2;
+waitms 2000;
+lclick 405 330;
+sndkey 1;
+sndkey 3;
+waitms 8000;
+lclick 540 470;
+waitms 3000;
+lclick 655 520;
+waitms 24000;
+
+
+lclick 405 330;
+sndkey 1;
+waitms 2000;
+lclick 405 330;
+sndkey 1;
+sndkey 2;
+waitms 2000;
+lclick 405 330;
+sndkey 1;
+sndkey 3;
+waitms 2000;
+lclick 405 330;
+sndkey 1;
+sndkey 2;
+waitms 2000;
+lclick 405 330;
+sndkey 1;
+sndkey 3;
+waitms 8000;
+lclick 540 470;
+waitms 3000;
+lclick 655 520;
+waitms 24000;
+
+
+lclick 405 330;
+sndkey 1;
+waitms 2000;
+lclick 405 330;
+sndkey 1;
+sndkey 2;
+waitms 2000;
+lclick 405 330;
+sndkey 1;
+sndkey 3;
+waitms 2000;
+lclick 405 330;
+sndkey 1;
+sndkey 2;
+waitms 2000;
+lclick 405 330;
+sndkey 1;
+sndkey 3;
+waitms 8000;
+lclick 540 470;
+waitms 3000;
+lclick 655 520;
+waitms 24000;
+
+
+lclick 30 330;
+waitms 3000;
+
+lclick 620 120;
+waitms 500;
+lclick 400 370;
+waitms 1000;
+lclick 100 165;
+waitms 1000;
+lclick 150 440;
+waitms 1000;
+lclick 325 100;
+lclick 480 165;
+</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

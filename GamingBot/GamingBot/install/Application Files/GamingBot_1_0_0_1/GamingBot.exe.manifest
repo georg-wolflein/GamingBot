@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1">
+  <asmv1:assemblyIdentity name="GamingBot.exe" version="1.0.0.1" publicKeyToken="e67eb11b649922ce" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="GamingBot" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="GamingBot.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="2.0.50727.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="System.Core" version="3.5.0.0" publicKeyToken="b77a5c561934e089" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="WindowsBase" version="3.0.0.0" publicKeyToken="31bf3856ad364e35" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="GamingBot.exe" size="42496">
+      <assemblyIdentity name="GamingBot" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>dp1vAh6vqXCru3tn6ECRJ318TTo=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Main.dll" size="14848">
+      <assemblyIdentity name="Main" version="1.0.0.1" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>yVCALxIMii/v+vXE+si01NAg1UI=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="GamingBot.exe.config" size="5075">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>zwWzwW6gQ0FDp9IjF1ddg4ZY1Y4=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=GEORG-LAPTOP\woegeo" issuerKeyHash="1f4500475b8d8b773a5757f05c8bade03494c4a7" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>5Z9e/7qqW6n6i2Qrg99/fn1wxTc=</DigestValue></Reference></SignedInfo><SignatureValue>c2odSfvlt7sv45s2c7gVQC25mh8xcDm0hj+tfhZQIdMxBenFKvz7HQ5FrvaqVPXL+mbbRlM5qzzo+ooyJv3vjgcp0Ga0JlXK/yMaXwM0z2wFWNpvcICWVyRM1Kov0Xp8TEZc9D+N+8KmCD9BveWslafqBXcaIrMzlpsPNZgeu1A=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>nko3BKgEJ1lf5mBGHYi8b9Ru+Hsit/6rkyO9Y5bYrp1hNgDynsFSNxv6Z0U6Ks3FsLOUEyvfmUuPb+0fvjucoZtE6YSm96A6N8YQ2d/B+Q5oPffOtSo8id3aGnBNMv6XrsZk6DsnmmyD8hs8x6/LM5wxEmBP/0+9v/JE/AIfMf8=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="37c5707d7e7fdf832b648bfaa95baabaff5e9fe5" Description="" Url=""><as:assemblyIdentity name="GamingBot.exe" version="1.0.0.1" publicKeyToken="e67eb11b649922ce" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=GEORG-LAPTOP\woegeo</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>vfMLphZxMphxcVeW+tguDTiuT3g=</DigestValue></Reference></SignedInfo><SignatureValue>dgZh715hjy50xt4WGtoRi2se7rbf1roK/FmsnYcc5lVGIhVEmvq1SzhIf908hmApI6PfD11I6bVgZ8CgVYhj/kVtF5bzlB06TEjvB4qgWNJ/9rLYELZw5f6pzcGdctxPQXlUapQ0c7fmiPDMBkE+2byEusBt3vwjFtPgjnn0gjw=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>nko3BKgEJ1lf5mBGHYi8b9Ru+Hsit/6rkyO9Y5bYrp1hNgDynsFSNxv6Z0U6Ks3FsLOUEyvfmUuPb+0fvjucoZtE6YSm96A6N8YQ2d/B+Q5oPffOtSo8id3aGnBNMv6XrsZk6DsnmmyD8hs8x6/LM5wxEmBP/0+9v/JE/AIfMf8=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB5TCCAU6gAwIBAgIQRP9dCrqDQZ9DUbL+I2NKSzANBgkqhkiG9w0BAQUFADAxMS8wLQYDVQQDHiYARwBFAE8AUgBHAC0ATABBAFAAVABPAFAAXAB3AG8AZQBnAGUAbzAeFw0xMzA3MTMwOTUzMzBaFw0xNDA3MTMxNTUzMzBaMDExLzAtBgNVBAMeJgBHAEUATwBSAEcALQBMAEEAUABUAE8AUABcAHcAbwBlAGcAZQBvMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCeSjcEqAQnWV/mYEYdiLxv1G74eyK3/quTI71jltiunWE2APKewVI3G/pnRToqzcWws5QTK9+ZS49v7R++O5yhm0TphKb3oDo3xhDZ38H5Dmg99861KjyJ3doacE0y/peuxmToOyeabIPyGzzHr8sznDESYE//T72/8kT8Ah8x/wIDAQABMA0GCSqGSIb3DQEBBQUAA4GBAAtr1mmssNUQh1v3ZUtWnldI8nRgwCgRW33rpPxo+PE0IBNiA994SpuTPPvQHUGcWGxaCmEx0UpFZLbPJe65AQM6fBye4kUe2sqrV8w0U5DHta2xClioxZotZYCg6GBQM6qhX3i24ZXt2H/js6Lu6VEeXHQwiGKIFE1nfmmyigM/</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
