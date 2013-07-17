@@ -61,7 +61,7 @@
   <ItemGroup>
     <Reference Include="Main, Version=1.0.0.1, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\Main\Main\bin\Release\Main.dll</HintPath>
+      <HintPath>.\Main.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
