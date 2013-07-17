@@ -25,7 +25,7 @@ If you do not want a full installation and just want to test it, navigate to [IN
 
 
 ### Problems
-If you are encountering problems during the installation, it's probably because you did not download the whole [publish](GamingBot/publish/) folder. The [setup.exe](GamingBot/publish/setup.exe) file has to be able to access the [Application Files](GamingBot/publish/Application Files) folder. 
+If you are encountering problems during the installation, it's probably because you did not download the whole [INSTALL](INSTALL) folder. The [setup.exe](INSTALL/setup.exe) file has to be able to access the [Application Files](INSTALL/Application Files) folder. 
 
 Another problem might be that you cannot start the application. If this is the case, make sure that the DLL [Main.dll](GamingBot/Main.dll) is located in the same directory as GamingBot.exe. 
 
