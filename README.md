@@ -7,7 +7,7 @@ I am going to add a feature so that you can record the routines by actually doin
 
 
 ## Screenshot
-![Application screenshot](info/Screenshot.png)
+![Application screenshot](https://raw.github.com/georgw777/GamingBot/master/info/Screenshot.png)
 
 This shows the application's main window. 
 
