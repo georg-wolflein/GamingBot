@@ -1,4 +1,6 @@
-# GamingBot
+# [GamingBot](http://georgw777.github.io/GamingBot/)
+
+
 GamingBot is a simple application that enables you to let your computer do the boring part of gaming for you. 
 If you're playing a game where you can repeat quests or missions to earn gems or credits, just simply let the computer repeat it overnight and you'll be rich the next morning!
 
