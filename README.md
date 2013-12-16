@@ -22,7 +22,7 @@ Please note that this application was programmed in Visual Basic and therefore o
 If you want to do a full setup (install it on your computer) open [INSTALL](INSTALL) and execute [setup.exe](INSTALL/setup.exe). This will correctly install it on your machine. Alternatly, you can download "INSTALL.zip" from the latest [release](../../releases). 
 
 
-### Just to try
+### Just to Try
 If you do not want a full installation and just want to test it, navigate to [INSTALL/Application Files](INSTALL/Application Files) and open the latest version of GamingBot. Then, execute GamingBot.exe. Have fun! As mentioned above, you can download "INSTALL.zip" from the latest [release](../../releases). 
 
 
